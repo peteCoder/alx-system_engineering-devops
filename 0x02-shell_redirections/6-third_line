@@ -1,0 +1,2 @@
+#!/bin/bash
+awk -F: 'NR==3 {print $1}' iacta
